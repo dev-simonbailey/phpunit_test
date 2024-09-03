@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'your-project/name',
+        'name' => 'phpunit/test',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2f7258652d0dbcf0fcacc3645259bbcd0a298a73',
+        'reference' => '8bb5fb2344d4f9d24cc88bbb3f2493d3678e3379',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -99,6 +99,15 @@
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'phpunit/test' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '8bb5fb2344d4f9d24cc88bbb3f2493d3678e3379',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '3.0.2',
@@ -243,15 +252,6 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'your-project/name' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '2f7258652d0dbcf0fcacc3645259bbcd0a298a73',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
     ),
 );

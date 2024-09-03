@@ -1,9 +1,11 @@
 {
-    "name": "your-project/name",
-    "description": "A description of your project",
+    "name": "phpunit/test",
+    "description": "PHP Unit Github Action test",
+    "license": "MIT",
     "require": {
         "php": "^8.1"
     },
+    
     "scripts": {
         "tests": "./vendor/bin/phpunit --testdox tests"
     },
