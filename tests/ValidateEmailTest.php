@@ -15,7 +15,7 @@ class ValidateEmailTest extends TestCase
 
         // Capture the output
         ob_start();
-        include 'validate_email.php'; // Replace with the actual filename
+        include 'scripts/validate_email.php'; // Replace with the actual filename
         $output = ob_get_clean();
 
         // Assert the expected output
@@ -33,7 +33,7 @@ class ValidateEmailTest extends TestCase
 
         // Capture the output
         ob_start();
-        include 'validate_email.php'; // Replace with the actual filename
+        include 'scripts/validate_email.php'; // Replace with the actual filename
         $output = ob_get_clean();
 
         // Assert the expected output
@@ -50,7 +50,7 @@ class ValidateEmailTest extends TestCase
 
         // Capture the output
         ob_start();
-        include 'validate_email.php'; // Replace with the actual filename
+        include 'scripts/validate_email.php'; // Replace with the actual filename
         $output = ob_get_clean();
 
         // Assert the expected output
@@ -67,7 +67,7 @@ class ValidateEmailTest extends TestCase
 
         // Capture the output
         ob_start();
-        include 'validate_email.php'; // Replace with the actual filename
+        include 'scripts/validate_email.php'; // Replace with the actual filename
         $output = ob_get_clean();
 
         // Assert the expected output

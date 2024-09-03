@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 
 // Include the file with the determineInputType function
-require_once 'DetermineInputType.php';
+require_once 'scripts/DetermineInputType.php';
 
 class DetermineInputTypeTest extends TestCase
 {
