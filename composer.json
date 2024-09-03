@@ -2,8 +2,7 @@
     "name": "your-project/name",
     "description": "A description of your project",
     "require": {
-        "php": "^8.1",
-        "phpunit/phpunit": "^11"
+        "php": "^8.1"
     },
     "scripts": {
         "tests": "./vendor/bin/phpunit --testdox tests"
