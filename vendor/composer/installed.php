@@ -3,7 +3,7 @@
         'name' => 'phpunit/test',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '038e0a6de9a91d1cb86f12dd1a9deb1b1c1add25',
+        'reference' => '82a4a9135b9eb5fb4fc7538c4a45f5d17d751a83',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -103,7 +103,7 @@
         'phpunit/test' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '038e0a6de9a91d1cb86f12dd1a9deb1b1c1add25',
+            'reference' => '82a4a9135b9eb5fb4fc7538c4a45f5d17d751a83',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
